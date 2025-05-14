@@ -1,0 +1,48 @@
+@media screen and (min-width: 620px) {
+    body {
+        width: 100%;
+        font-size: 14px;
+    }
+    .wrapper {
+        padding: 24px 57px 40px;
+        margin: 0 auto;
+    }
+    .none {
+        display: none;
+    }
+    nav {
+        flex-direction: row;
+        display: inline-flex;
+        white-space: nowrap;
+    }
+    nav > a {
+        padding: 6px 10px;
+    }
+    nav > a:hover{
+        border-radius: 4px;
+    }
+    main {
+        padding: 16px 60px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    article > h2, section > h2 {
+        font-size: 24px;
+    }
+    article > p, section > p {
+        font-size: 14px;
+    }
+    figure > img {
+        border-radius: 6px;
+    }
+    figcaption {
+        font-size: 16px;
+    }
+    ul > li, footer {
+        font-size: 14px;
+    }
+    footer {
+        text-align: center;
+    }
+}

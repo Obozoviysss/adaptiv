@@ -1,0 +1,118 @@
+@media screen {
+    body {
+        width: 100%;
+        font-size: 14px;
+    }
+    .wrapper {
+        padding: 12px 12px 40px;
+        margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F4D3D3;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+    nav > h3 {
+        line-height: 21px;
+        font-family: "Arial Black";
+        margin-bottom: 3px;
+        padding: 10px 0;
+    }
+    nav > a{
+        font-family: "Arial";
+        line-height: 21px;
+        padding: 6px 0;
+        color: #006EBE;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    nav > a:hover{
+        background: #fff;
+        color: #5EAAE0
+    }
+    nav > a:visited {
+        color: #0B257D;
+    }
+    main{
+        padding: 16px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        border-radius: 8px 8px 0 0;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .wiki {
+        background: #e9e9e9;
+        padding: 8px;
+        font-size: 12px;
+        font-family: "Arial";
+        border-radius: 8px;
+    }
+    .wiki > p{
+            display: flex;
+            column-gap: 8px;
+    }
+    .wiki > p > a{
+        color: #006EBE;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    article > h2, section > h2 {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+    figure {
+        background: #F4D3D3;
+        border-radius: 10px;
+    }
+    figure > img {
+        width: 100%;
+    }
+    figcaption {
+        padding: 10px 0;
+        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 21px;
+    }
+    section > p {
+        font-size: 12px;
+    }
+    ul > li {
+        padding: 10px;
+        border-top: 1px solid #C9A5AA;
+        font-size: 12px;
+    }
+    ul > li:first-child {
+        background: #FCF5E9 !important;
+        border-top: 0;
+    }
+    ul > li:nth-child(even) {
+        background: #F4E9E9;
+    }
+    ul > li:nth-child(odd) {
+        background: #F4D3D3;
+    }
+    footer {
+        font-size: 12px;
+        font-family: "Arial";
+        padding: 20px;
+        background: #F4D3D3;
+        border-radius: 0 0 8px 8px;
+    }
+}
